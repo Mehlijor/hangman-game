@@ -1,0 +1,8 @@
+[
+    { "word": "javascript", "hint": "A popular web programming language" },
+    { "word": "hangman", "hint": "A classic word-guessing game" },
+    { "word": "browser", "hint": "Where websites live" },
+    { "word": "function", "hint": "A reusable block of code" },
+    { "word": "object", "hint": "Key-value pair structure in JS" }
+  ]
+  
