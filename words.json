@@ -23,7 +23,7 @@
   { "word": "crystal", "hint": "Looks fragile, might be magic." },
   { "word": "island", "hint": "Surrounded, but still alone." },
   { "word": "mirror", "hint": "Sees everything, says nothing." },
-  { "word": "shadow", "hint": "Follows you around without saying a word." }
+  { "word": "shadow", "hint": "Follows you around without saying a word." },
   { "word": "javascript", "hint": "Often runs in the browser, not on the back end (usually)." },
   { "word": "hangman", "hint": "One wrong letter closer to the gallows." },
   { "word": "browser", "hint": "You’re probably using one right now." },
@@ -48,7 +48,7 @@
   { "word": "castle", "hint": "Once protected royalty, now attracts tourists." },
   { "word": "sunflower", "hint": "Follows the light, stands tall." },
   { "word": "amazon", "hint": "Green, wild, and not the website." },
-  { "word": "dragon", "hint": "Flies and fries. Mythically speaking." }
+  { "word": "dragon", "hint": "Flies and fries. Mythically speaking." },
   { "word": "tornado", "hint": "Spins like it’s late for something." },
   { "word": "violin", "hint": "You don’t pluck this stringed instrument — you glide." },
   { "word": "jungle", "hint": "Where the wild things actually are." },
