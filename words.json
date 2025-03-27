@@ -1,78 +1,394 @@
 [
-  { "word": "tornado", "hint": "Spins like it’s late for something." },
-  { "word": "violin", "hint": "You don’t pluck this stringed instrument — you glide." },
-  { "word": "jungle", "hint": "Where the wild things actually are." },
-  { "word": "notebook", "hint": "Old-school thoughts go here." },
-  { "word": "gravity", "hint": "You only notice it when it fails." },
-  { "word": "penguin", "hint": "Black and white, but not a referee." },
-  { "word": "mermaid", "hint": "Sings near rocks — don’t fall for it." },
-  { "word": "skyscraper", "hint": "You’ll get neck pain trying to read the top floor." },
-  { "word": "sahara", "hint": "Nothing but sand for days." },
-  { "word": "beethoven", "hint": "He heard none of his own genius." },
-  { "word": "unicorn", "hint": "Horns, hooves, and high fantasy." },
-  { "word": "castle", "hint": "Stone, moats, and questionable plumbing." },
-  { "word": "nebula", "hint": "A star’s chaotic birthplace." },
-  { "word": "pirate", "hint": "Loves gold and hates rules." },
-  { "word": "mystery", "hint": "You don’t know what it is… yet." },
-  { "word": "lightning", "hint": "You’ll see it before you hear it." },
-  { "word": "octopus", "hint": "Has more arms than friends." },
-  { "word": "phoenix", "hint": "Dies in flames, comes back like it’s nothing." },
-  { "word": "jigsaw", "hint": "A puzzle, not a saw." },
-  { "word": "mountain", "hint": "You can climb it — if your legs forgive you." },
-  { "word": "skeleton", "hint": "We all have one, hopefully on the inside." },
-  { "word": "crystal", "hint": "Looks fragile, might be magic." },
-  { "word": "island", "hint": "Surrounded, but still alone." },
-  { "word": "mirror", "hint": "Sees everything, says nothing." },
-  { "word": "shadow", "hint": "Follows you around without saying a word." },
-  { "word": "javascript", "hint": "Often runs in the browser, not on the back end (usually)." },
-  { "word": "hangman", "hint": "One wrong letter closer to the gallows." },
-  { "word": "browser", "hint": "You’re probably using one right now." },
-  { "word": "function", "hint": "It does something... again and again, if you want." },
-  { "word": "object", "hint": "In JavaScript, it’s not a thing — but kind of is." },
-  { "word": "avocado", "hint": "Popular on toast, hard in the middle." },
-  { "word": "sushi", "hint": "Raw appeal, often wrapped in seaweed." },
-  { "word": "titanic", "hint": "Built to be unsinkable. Wasn’t." },
-  { "word": "giraffe", "hint": "Sees above the rest — literally." },
-  { "word": "ballet", "hint": "Tiptoes and tutus." },
-  { "word": "wizard", "hint": "You might find one behind a curtain." },
-  { "word": "detective", "hint": "Looks for clues so you don’t have to." },
-  { "word": "koala", "hint": "Sleeps all day, lives in the trees." },
-  { "word": "pencil", "hint": "Writes until you sharpen it away." },
-  { "word": "pyramid", "hint": "Points to the sky and stores mummies." },
-  { "word": "volcano", "hint": "Hot-headed mountain with explosive tendencies." },
-  { "word": "hockey", "hint": "Where pucks fly and teeth don’t last." },
-  { "word": "chocolate", "hint": "Melts in your mouth, not in your hand — ideally." },
-  { "word": "zombie", "hint": "Slow, moaning, and always hungry." },
-  { "word": "moonlight", "hint": "Not from the moon, not really." },
-  { "word": "triangle", "hint": "Three sides. No more, no less." },
-  { "word": "castle", "hint": "Once protected royalty, now attracts tourists." },
-  { "word": "sunflower", "hint": "Follows the light, stands tall." },
-  { "word": "amazon", "hint": "Green, wild, and not the website." },
-  { "word": "dragon", "hint": "Flies and fries. Mythically speaking." },
-  { "word": "tornado", "hint": "Spins like it’s late for something." },
-  { "word": "violin", "hint": "You don’t pluck this stringed instrument — you glide." },
-  { "word": "jungle", "hint": "Where the wild things actually are." },
-  { "word": "notebook", "hint": "Old-school thoughts go here." },
-  { "word": "gravity", "hint": "You only notice it when it fails." },
-  { "word": "penguin", "hint": "Black and white, but not a referee." },
-  { "word": "mermaid", "hint": "Sings near rocks — don’t fall for it." },
-  { "word": "skyscraper", "hint": "You’ll get neck pain trying to read the top floor." },
-  { "word": "sahara", "hint": "Nothing but sand for days." },
-  { "word": "beethoven", "hint": "He heard none of his own genius." },
-  { "word": "unicorn", "hint": "Horns, hooves, and high fantasy." },
-  { "word": "castle", "hint": "Stone, moats, and questionable plumbing." },
-  { "word": "nebula", "hint": "A star’s chaotic birthplace." },
-  { "word": "pirate", "hint": "Loves gold and hates rules." },
-  { "word": "mystery", "hint": "You don’t know what it is… yet." },
-  { "word": "lightning", "hint": "You’ll see it before you hear it." },
-  { "word": "octopus", "hint": "Has more arms than friends." },
-  { "word": "phoenix", "hint": "Dies in flames, comes back like it’s nothing." },
-  { "word": "jigsaw", "hint": "A puzzle, not a saw." },
-  { "word": "mountain", "hint": "You can climb it — if your legs forgive you." },
-  { "word": "skeleton", "hint": "We all have one, hopefully on the inside." },
-  { "word": "crystal", "hint": "Looks fragile, might be magic." },
-  { "word": "island", "hint": "Surrounded, but still alone." },
-  { "word": "mirror", "hint": "Sees everything, says nothing." },
-  { "word": "shadow", "hint": "Follows you around without saying a word." }
-  ]
-  
+  {
+    "word": "javascript",
+    "hint": "Often runs in the browser, not on the back end (usually)."
+  },
+  {
+    "word": "hangman",
+    "hint": "One wrong letter closer to the gallows."
+  },
+  {
+    "word": "browser",
+    "hint": "You're probably using one right now."
+  },
+  {
+    "word": "function",
+    "hint": "It does something... again and again, if you want."
+  },
+  {
+    "word": "object",
+    "hint": "In JavaScript, it's not a thing \u2014 but kind of is."
+  },
+  {
+    "word": "avocado",
+    "hint": "Popular on toast, hard in the middle."
+  },
+  {
+    "word": "sushi",
+    "hint": "Raw appeal, often wrapped in seaweed."
+  },
+  {
+    "word": "titanic",
+    "hint": "Built to be unsinkable. Wasn't."
+  },
+  {
+    "word": "giraffe",
+    "hint": "Sees above the rest \u2014 literally."
+  },
+  {
+    "word": "ballet",
+    "hint": "Tiptoes and tutus."
+  },
+  {
+    "word": "wizard",
+    "hint": "You might find one behind a curtain."
+  },
+  {
+    "word": "detective",
+    "hint": "Looks for clues so you don't have to."
+  },
+  {
+    "word": "koala",
+    "hint": "Sleeps all day, lives in the trees."
+  },
+  {
+    "word": "pencil",
+    "hint": "Writes until you sharpen it away."
+  },
+  {
+    "word": "pyramid",
+    "hint": "Points to the sky and stores mummies."
+  },
+  {
+    "word": "volcano",
+    "hint": "Hot-headed mountain with explosive tendencies."
+  },
+  {
+    "word": "hockey",
+    "hint": "Where pucks fly and teeth don't last."
+  },
+  {
+    "word": "chocolate",
+    "hint": "Melts in your mouth, not in your hand \u2014 ideally."
+  },
+  {
+    "word": "zombie",
+    "hint": "Slow, moaning, and always hungry."
+  },
+  {
+    "word": "moonlight",
+    "hint": "Not from the moon, not really."
+  },
+  {
+    "word": "triangle",
+    "hint": "Three sides. No more, no less."
+  },
+  {
+    "word": "castle",
+    "hint": "Once protected royalty, now attracts tourists."
+  },
+  {
+    "word": "sunflower",
+    "hint": "Follows the light, stands tall."
+  },
+  {
+    "word": "amazon",
+    "hint": "Green, wild, and not the website."
+  },
+  {
+    "word": "dragon",
+    "hint": "Flies and fries. Mythically speaking."
+  },
+  {
+    "word": "tornado",
+    "hint": "Spins like it's late for something."
+  },
+  {
+    "word": "violin",
+    "hint": "You don't pluck this stringed instrument \u2014 you glide."
+  },
+  {
+    "word": "jungle",
+    "hint": "Where the wild things actually are."
+  },
+  {
+    "word": "notebook",
+    "hint": "Old-school thoughts go here."
+  },
+  {
+    "word": "gravity",
+    "hint": "You only notice it when it fails."
+  },
+  {
+    "word": "penguin",
+    "hint": "Black and white, but not a referee."
+  },
+  {
+    "word": "mermaid",
+    "hint": "Sings near rocks \u2014 don't fall for it."
+  },
+  {
+    "word": "skyscraper",
+    "hint": "You'll get neck pain trying to read the top floor."
+  },
+  {
+    "word": "sahara",
+    "hint": "Nothing but sand for days."
+  },
+  {
+    "word": "beethoven",
+    "hint": "He heard none of his own genius."
+  },
+  {
+    "word": "unicorn",
+    "hint": "Horns, hooves, and high fantasy."
+  },
+  {
+    "word": "nebula",
+    "hint": "A star's chaotic birthplace."
+  },
+  {
+    "word": "pirate",
+    "hint": "Loves gold and hates rules."
+  },
+  {
+    "word": "mystery",
+    "hint": "You don't know what it is... yet."
+  },
+  {
+    "word": "lightning",
+    "hint": "You'll see it before you hear it."
+  },
+  {
+    "word": "octopus",
+    "hint": "Has more arms than friends."
+  },
+  {
+    "word": "phoenix",
+    "hint": "Dies in flames, comes back like it's nothing."
+  },
+  {
+    "word": "jigsaw",
+    "hint": "A puzzle, not a saw."
+  },
+  {
+    "word": "mountain",
+    "hint": "You can climb it \u2014 if your legs forgive you."
+  },
+  {
+    "word": "skeleton",
+    "hint": "We all have one, hopefully on the inside."
+  },
+  {
+    "word": "crystal",
+    "hint": "Looks fragile, might be magic."
+  },
+  {
+    "word": "island",
+    "hint": "Surrounded, but still alone."
+  },
+  {
+    "word": "mirror",
+    "hint": "Sees everything, says nothing."
+  },
+  {
+    "word": "shadow",
+    "hint": "Follows you around without saying a word."
+  },
+  {
+    "word": "lantern",
+    "hint": "Old-school flashlight with flair."
+  },
+  {
+    "word": "compass",
+    "hint": "Knows where north is, even when you don't."
+  },
+  {
+    "word": "cactus",
+    "hint": "Don't hug it \u2014 seriously."
+  },
+  {
+    "word": "ghost",
+    "hint": "You won't see it coming... or going."
+  },
+  {
+    "word": "puzzle",
+    "hint": "It fits \u2014 eventually."
+  },
+  {
+    "word": "camera",
+    "hint": "Freezes time in little rectangles."
+  },
+  {
+    "word": "whistle",
+    "hint": "High-pitched attention grabber."
+  },
+  {
+    "word": "marathon",
+    "hint": "Long enough to question your life choices."
+  },
+  {
+    "word": "clock",
+    "hint": "Always ticking, never talking."
+  },
+  {
+    "word": "radio",
+    "hint": "Voice with no face."
+  },
+  {
+    "word": "trampoline",
+    "hint": "The floor fights back."
+  },
+  {
+    "word": "igloo",
+    "hint": "Colder inside than it looks."
+  },
+  {
+    "word": "fossil",
+    "hint": "Remains of something that didn't make it."
+  },
+  {
+    "word": "umbrella",
+    "hint": "Your tiny roof in a storm."
+  },
+  {
+    "word": "fireworks",
+    "hint": "Explosions with style."
+  },
+  {
+    "word": "potion",
+    "hint": "Drink me \u2014 if you dare."
+  },
+  {
+    "word": "robot",
+    "hint": "May or may not take your job."
+  },
+  {
+    "word": "keyboard",
+    "hint": "Where thoughts become letters."
+  },
+  {
+    "word": "trophy",
+    "hint": "You don't get this for trying."
+  },
+  {
+    "word": "satellite",
+    "hint": "Orbiting and eavesdropping."
+  },
+  {
+    "word": "bicycle",
+    "hint": "Balanced when in motion."
+  },
+  {
+    "word": "maze",
+    "hint": "Left, right, wrong."
+  },
+  {
+    "word": "hammer",
+    "hint": "If it doesn't fit, this helps."
+  },
+  {
+    "word": "glacier",
+    "hint": "Slow, cold, and unstoppable."
+  },
+  {
+    "word": "festival",
+    "hint": "Crowds, colors, and questionable outfits."
+  },
+  {
+    "word": "circus",
+    "hint": "Three rings of chaos and talent."
+  },
+  {
+    "word": "ladder",
+    "hint": "Up or down, it wobbles."
+  },
+  {
+    "word": "helmet",
+    "hint": "Your brain's bodyguard."
+  },
+  {
+    "word": "campfire",
+    "hint": "Where stories come alive."
+  },
+  {
+    "word": "fortune",
+    "hint": "Could be cookie-based or empire-sized."
+  },
+  {
+    "word": "whirlpool",
+    "hint": "It sucks. Literally."
+  },
+  {
+    "word": "galaxy",
+    "hint": "One of billions \u2014 including ours."
+  },
+  {
+    "word": "meteor",
+    "hint": "Shoots through space like it's late."
+  },
+  {
+    "word": "beach",
+    "hint": "Where land kisses water."
+  },
+  {
+    "word": "fiddle",
+    "hint": "A violin with a country accent."
+  },
+  {
+    "word": "parade",
+    "hint": "Marching with flair."
+  },
+  {
+    "word": "butterfly",
+    "hint": "Started as a crawler."
+  },
+  {
+    "word": "lighthouse",
+    "hint": "Guides ships without moving."
+  },
+  {
+    "word": "eclipse",
+    "hint": "When the lights go out... temporarily."
+  },
+  {
+    "word": "carousel",
+    "hint": "Goes in circles \u2014 and you paid for it."
+  },
+  {
+    "word": "harvest",
+    "hint": "The payoff of patience and dirt."
+  },
+  {
+    "word": "moonwalk",
+    "hint": "Walking, but not really."
+  },
+  {
+    "word": "fireplace",
+    "hint": "The original Netflix 'yule log'."
+  },
+  {
+    "word": "dagger",
+    "hint": "Short, sharp, and not friendly."
+  },
+  {
+    "word": "geyser",
+    "hint": "Earth's surprise water feature."
+  },
+  {
+    "word": "painter",
+    "hint": "Brushes, colors, and imagination."
+  },
+  {
+    "word": "banjo",
+    "hint": "It twangs \u2014 and it means it."
+  },
+  {
+    "word": "reef",
+    "hint": "Colorful, wet, and very much alive."
+  },
+  {
+    "word": "cabin",
+    "hint": "Wooden, quiet, and often haunted."
+  }
+]
