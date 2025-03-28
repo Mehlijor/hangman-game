@@ -1,8 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #ecf0f1;
+  font-family: "Bungee", sans-serif;
   margin: 0;
   padding: 20px;
+  background: url("images/intersection-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 body .game-container {
   display: flex;
@@ -10,7 +11,7 @@ body .game-container {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -24,8 +25,23 @@ body .game-container .hint {
   margin-bottom: 1rem;
 }
 body .game-container #hangman-img {
-  width: 200px;
+  width: 400px !important;
   transition: opacity 0.5s ease-in-out;
+}
+body .game-container #guess-tracker {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+body .game-container #guess-tracker .wrench {
+  font-size: 24px;
+  margin: 0 5px;
+  color: #e74c3c;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+body .game-container #guess-tracker .wrench.used {
+  opacity: 0.2;
 }
 body .game-container #word-display {
   font-size: 2rem;
@@ -33,34 +49,69 @@ body .game-container #word-display {
   margin: 1rem 0;
 }
 body .game-container #letter-buttons {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
   max-width: 400px;
   margin: 1rem auto;
 }
 body .game-container button {
-  padding: 10px;
+  font-family: inherit;
+  width: 35px;
+  height: 35px;
   background: #2c3e50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  text-align: center;
 }
 body .game-container button:disabled {
   background: grey;
   cursor: not-allowed;
 }
 body .game-container #result-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  text-align: center;
   font-size: 1.5rem;
-  margin-top: 1rem;
   color: #e74c3c;
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
 }
 body .game-container #result-message img {
   display: block;
   margin: 10px auto 0;
   width: 150px;
   animation: fadeIn 1s ease-in-out;
+}
+body .game-container #result-message button {
+  font-family: inherit;
+  font-size: 1.2rem;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  min-width: 175px;
+  white-space: nowrap;
+  transition: background 0.2s ease;
+}
+body .game-container #result-message button:hover {
+  background: #1a252f;
+}
+body .game-container #result-message button:disabled {
+  background: grey;
+  cursor: not-allowed;
 }
 
 @keyframes fadeIn {

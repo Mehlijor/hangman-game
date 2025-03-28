@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- 
+    Sets up character encoding so special characters show up properly
+    Also tells browser how to scale content on mobile (responsive)
+  -->
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hangman Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- 
+    Title that shows up in the browser tab
+  -->
+  <title>Car Crash</title>
+
+  <!-- 
+    Pulls in Bungee font from Google Fonts for that bold, fun look
+  -->
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- 
+    Main game wrapper — holds everything: title, hint, image, buttons, result, etc.
+  -->
   <div class="game-container">
-    <h1>Hangman Game</h1>
+    <h1>Car Crash</h1>
+    <p class="subtitle">Guess the word to avoid crashing your car</p>
     <p class="hint"><strong>Hint:</strong> <span id="hint-text"></span></p>
     <img id="hangman-img" src="images/hangman-0.svg" alt="Hangman" />
+    <div id="guess-tracker"></div>
     <div id="word-display"></div>
     <div id="letter-buttons"></div>
-    <div id="result-message"></div>
-    <button id="play-again" style="display: none;">Play Again</button>
+    <!-- 
+      Result message area — shows win or lose message + gif
+      Play Again button is hidden by default and only appears when game ends
+    -->
+    <div id="result-message">
+      <button id="play-again" style="display: none;">Play Again</button>
+    </div>
   </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>
